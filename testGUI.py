@@ -167,7 +167,6 @@ class Root(tk.Tk):
         self.mainloop()
 
     def sendNotificationFrameDestroyed(self, frame):
-        print 'Bye!'
         self.destroy()
 
     def sendNotificationShowPlots(self):
